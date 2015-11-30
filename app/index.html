@@ -54,12 +54,14 @@
             <div ng-repeat="paperSize in paperSizes">
                 <div ng-hide="filteredFormats.length == 0 || !paperSize.show">
                     <h4><a href="{{paperSize.url}}" >{{paperSize.name}}</a></h4>
-
+                    <blockquote>
+                        {{paperSize.description.text}} <small> - <a href="{{paperSize.description.url}}">{{paperSize.description.url}}</a></small>
+                    </blockquote>
                     <div class="row">
                         <div class="col s3" ng-repeat="format in filteredFormats=(paperSize.formats | filter:filter)">
                             <div class="card teal">
                                 <div class="card-content white-text">
-                                    <span class="card-title" ng-bind-html="highlight(format.name, filter)"></span>
+                                    <span class="card-title activator"><span ng-bind-html="highlight(format.name, filter)"></span><i class="material-icons right">more_vert</i></span>
                                     <table>
                                         <tr>
                                             <th>Breite</th>
@@ -71,6 +73,13 @@
                                         </tr>
                                     </table>
                                 </div>
+                                {{paperSize.keywords}}
+                                <div class="card-reveal">
+                                    <span class="card-title grey-text text-darken-4">Stichwörter<i class="material-icons right">close</i></span>
+                                    <div class="chip" style="margin-bottom: 5px;" ng-repeat="keyword in format.keywords">
+                                        {{keyword}}
+                                    </div>
+                                </div>
                             </div>
                         </div>
                     </div>
@@ -80,6 +89,7 @@
     </div>
 </div>
 <script src="bower_components/jquery/dist/jquery.min.js"></script>
+<script src="bower_components/Materialize/dist/js/materialize.min.js"></script>
 <script src="bower_components/angular/angular.js"></script>
 <script src="app.js"></script>
 </body>

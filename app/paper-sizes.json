@@ -3,69 +3,82 @@
     "name": "DIN/ISO A-Formate",
     "show": true,
     "url": "https://de.wikipedia.org/wiki/Papierformat#Internationale_Papierformate_.28ISO.2FDIN.29",
+    "description" : {
+      "text": "Die Standardgrößen für Papierformate in Deutschland sind die vom Deutschen Institut für Normung (DIN) in der DIN-Norm DIN 476 festgelegten Formate. Das Verhältnis zwischen Breite und Höhe beträgt bei allen Formaten 1 : √2. Entwickelt wurde der Standard vom deutschen Ingenieur Walter Porstmann.",
+      "url": "https://de.wikipedia.org/wiki/Papierformat"
+    },
     "formats": [
       {
         "name": "DIN A0",
         "cm": {
           "width": "84.090",
           "height": "118.92"
-        }
+        },
+        "keywords": ["Technische Zeichnungen", "Seekarten", "Landkarten", "Druckbogen", "Aushang-Fahrpläne", "Poster", "Filmplakate", "Wahlplakate"]
       },
       {
         "name": "DIN A1",
         "cm": {
           "width": "59.460",
           "height": "84.090"
-        }
+        },
+        "keywords": ["Technische Zeichnungen", "Seekarten", "Landkarten", "Druckbogen", "Aushang-Fahrpläne", "Poster", "Filmplakate", "Wahlplakate", "Flipcharts", "Geschenkpapier", "Fahrpläne", "Kalender", "Zeitungen", "Meisterbrief"]
       },
       {
         "name": "DIN A2",
         "cm": {
           "width": "42.045",
           "height": "59.460"
-        }
+        },
+        "keywords": ["Zeichnungen", "Diagramme", "große Tabellen", "Karten", "Technische Zeichnungen", "Flipcharts", "Geschenkpapier", "Filmplakate", "Fahrpläne", "Kalender", "Zeitungen", "Meisterbrief"]
       },
       {
         "name": "DIN A3",
         "cm": {
           "width": "29.730",
           "height": "42.045"
-        }
+        },
+        "keywords": ["Zeitungen", "Noten", "Karten", "Diagramme", "große Tabellen", "Kalender", "Filmplakate", "Technische Zeichnungen"]
       },
       {
         "name": "DIN A4",
         "cm": {
           "width": "21.022",
           "height": "29.730"
-        }
+        },
+        "keywords" : ["Briefpapier", "Formulare", "Hefte", "Zeitschriften", "Technische Zeichnungen", "Bücher"]
       },
       {
         "name": "DIN A5",
         "cm": {
           "width": "14.865",
           "height": "21.022"
-        }
+        },
+        "keywords" : ["Notizblöcke", "Schulhefte", "Prospekte", "Karteikarten", "Bücher"]
       },
       {
         "name": "DIN A6",
         "cm": {
           "width": "10.511",
           "height": "14.865"
-        }
+        },
+        "keywords" : ["Karteikarten", "Flyer", "Postkarten", "Taschenbücher", "Überweisungsträger", "Notizhefte", "Bücher"]
       },
       {
         "name": "DIN A7",
         "cm": {
           "width": "7.433",
           "height": "10.511"
-        }
+        },
+        "keywords" : ["Karteikarten", "Flugblätter", "Taschenkalender", "Personalausweis"]
       },
       {
         "name": "DIN A8",
         "cm": {
           "width": "5.256",
           "height": "7.433"
-        }
+        },
+        "keywords" : ["Karteikarten", "Spielkarten", "Visitenkarten", "Etiketten"]
       },
       {
         "name": "DIN A9",
@@ -87,6 +100,10 @@
     "name": "DIN/ISO B-Formate",
     "show": true,
     "url": "https://de.wikipedia.org/wiki/Papierformat#Internationale_Papierformate_.28ISO.2FDIN.29",
+    "description" : {
+      "text": "Die Standardgrößen für Papierformate in Deutschland sind die vom Deutschen Institut für Normung (DIN) in der DIN-Norm DIN 476 festgelegten Formate. Das Verhältnis zwischen Breite und Höhe beträgt bei allen Formaten 1 : √2. Entwickelt wurde der Standard vom deutschen Ingenieur Walter Porstmann.",
+      "url": "https://de.wikipedia.org/wiki/Papierformat"
+    },
     "formats": [
       {
         "name": "DIN B0",
@@ -121,35 +138,40 @@
         "cm": {
           "width": "25.0",
           "height": "35.3"
-        }
+        },
+        "keywords": ["Zeitungen", "Noten", "Karten", "Umschläge"]
       },
       {
         "name": "DIN B5",
         "cm": {
           "width": "17.6",
           "height": "25.0"
-        }
+        },
+        "keywords": ["Bücher"]
       },
       {
         "name": "DIN B6",
         "cm": {
           "width": "12.5",
           "height": "17.6"
-        }
+        },
+        "keywords": ["Bücher"]
       },
       {
         "name": "DIN B7",
         "cm": {
           "width": "8.8",
           "height": "12.5"
-        }
+        },
+        "keywords": ["Reisepass"]
       },
       {
         "name": "DIN B8",
         "cm": {
           "width": "6.2",
           "height": "8.8"
-        }
+        },
+        "keywords": ["Spielkarten", "Visitenkarten", "Etiketten"]
       },
       {
         "name": "DIN B9",
@@ -171,6 +193,10 @@
     "name": "DIN/ISO C-Formate",
     "show": true,
     "url": "https://de.wikipedia.org/wiki/Papierformat#Internationale_Papierformate_.28ISO.2FDIN.29",
+    "description" : {
+      "text": "Die Standardgrößen für Papierformate in Deutschland sind die vom Deutschen Institut für Normung (DIN) in der DIN-Norm DIN 476 festgelegten Formate. Das Verhältnis zwischen Breite und Höhe beträgt bei allen Formaten 1 : √2. Entwickelt wurde der Standard vom deutschen Ingenieur Walter Porstmann.",
+      "url": "https://de.wikipedia.org/wiki/Papierformat"
+    },
     "formats": [
       {
         "name": "DIN C0",
@@ -205,21 +231,24 @@
         "cm": {
           "width": "22.9",
           "height": "32.4"
-        }
+        },
+        "keywords": ["Umschläge"]
       },
       {
         "name": "DIN C5",
         "cm": {
           "width": "16.2",
           "height": "22.9"
-        }
+        },
+        "keywords": ["Umschläge"]
       },
       {
         "name": "DIN C6",
         "cm": {
           "width": "11.4",
           "height": "16.2"
-        }
+        },
+        "keywords": ["Umschläge"]
       },
       {
         "name": "DIN C7",
@@ -255,6 +284,10 @@
     "name": "DIN/ISO D-Formate",
     "show": true,
     "url": "https://de.wikipedia.org/wiki/Papierformat#Internationale_Papierformate_.28ISO.2FDIN.29",
+    "description" : {
+      "text": "Die Standardgrößen für Papierformate in Deutschland sind die vom Deutschen Institut für Normung (DIN) in der DIN-Norm DIN 476 festgelegten Formate. Das Verhältnis zwischen Breite und Höhe beträgt bei allen Formaten 1 : √2. Entwickelt wurde der Standard vom deutschen Ingenieur Walter Porstmann.",
+      "url": "https://de.wikipedia.org/wiki/Papierformat"
+    },
     "formats": [
       {
         "name": "DIN D0",
@@ -296,7 +329,8 @@
         "cm": {
           "width": "13.6",
           "height": "19.2"
-        }
+        },
+        "keywords": ["DVD-Hüllen"]
       },
       {
         "name": "DIN D6",
@@ -336,9 +370,179 @@
     ]
   },
   {
+    "name": "DIN lang",
+    "show": true,
+    "url": "https://de.wikipedia.org/wiki/DIN_lang",
+    "description" : {
+      "text": "DIN lang ist die umgangssprachliche Bezeichnung für mehrere ähnliche Formate für Briefumschläge, die ursprünglich zur Verwendung für zweifach quer gefaltete Briefbogen DIN A4 gedacht sind, sowie für weitere zu diesen Umschlägen passende Einlageformate. Die Bezeichnung lehnt sich an die Papierformate nach DIN an.",
+      "url": "https://de.wikipedia.org/wiki/DIN_lang"
+    },
+    "formats": [
+      {
+        "name": "DL",
+        "cm": {
+          "width": "22.0",
+          "height": "11.0"
+        },
+        "keywords": ["DIN lang", "Briefumschlag"]
+      },
+      {
+        "name": "C6/C5",
+        "cm": {
+          "width": "22.9",
+          "height": "11.4"
+        },
+        "keywords": ["DIN lang", "Briefumschlag"]
+      }
+    ]
+  },
+  {
+    "name": "Maschinenformate",
+    "show": true,
+    "url": "https://de.wikipedia.org/wiki/Papierformat#Maschinenformate",
+    "description" : {
+      "text": "Für die Verarbeitung in Druckmaschinen existiert ein Industriestandard, der folgende maximalen Papiergrößen umfasst.",
+      "url": "https://de.wikipedia.org/wiki/Papierformat#Maschinenformate"
+    },
+    "formats": [
+      {
+        "name": "00",
+        "cm": {
+          "width": "350",
+          "height": "500"
+        },
+        "keywords": ["Kleinformat"]
+      },
+      {
+        "name": "01",
+        "cm": {
+          "width": "460",
+          "height": "640"
+        },
+        "keywords": []
+      },
+      {
+        "name": "0b",
+        "cm": {
+          "width": "520",
+          "height": "720"
+        },
+        "keywords": ["Halbformat"]
+      },
+      {
+        "name": "1",
+        "cm": {
+          "width": "560",
+          "height": "830"
+        },
+        "keywords": []
+      },
+      {
+        "name": "2c",
+        "cm": {
+          "width": "640",
+          "height": "910"
+        },
+        "keywords": []
+      },
+      {
+        "name": "2",
+        "cm": {
+          "width": "610",
+          "height": "860"
+        },
+        "keywords": []
+      },
+      {
+        "name": "3",
+        "cm": {
+          "width": "650",
+          "height": "960"
+        },
+        "keywords": []
+      },
+      {
+        "name": "3b",
+        "cm": {
+          "width": "720",
+          "height": "1020"
+        },
+        "keywords": ["Mittelformat"]
+      },
+      {
+        "name": "4",
+        "cm": {
+          "width": "780",
+          "height": "1120"
+        },
+        "keywords": []
+      },
+      {
+        "name": "5",
+        "cm": {
+          "width": "890",
+          "height": "1260"
+        },
+        "keywords": []
+      },
+      {
+        "name": "6",
+        "cm": {
+          "width": "1020",
+          "height": "1420"
+        },
+        "keywords": []
+      },
+      {
+        "name": "7",
+        "cm": {
+          "width": "1120",
+          "height": "1620"
+        },
+        "keywords": []
+      },
+      {
+        "name": "7b",
+        "cm": {
+          "width": "1200",
+          "height": "1620"
+        },
+        "keywords": ["Großformat"]
+      },
+      {
+        "name": "8",
+        "cm": {
+          "width": "1300",
+          "height": "1850"
+        },
+        "keywords": []
+      },
+      {
+        "name": "9",
+        "cm": {
+          "width": "1500",
+          "height": "2050"
+        },
+        "keywords": ["Supergroßformat"]
+      },
+      {
+        "name": "10",
+        "cm": {
+          "width": "1620",
+          "height": "2240"
+        },
+        "keywords": []
+      }
+    ]
+  },
+  {
     "name": "US ARCH-Formate",
     "show": true,
     "url": "https://de.wikipedia.org/wiki/Papierformat#Internationale_Papierformate_.28ISO.2FDIN.29",
+    "description" : {
+      "text": "DIN lang ist die umgangssprachliche Bezeichnung für mehrere ähnliche Formate für Briefumschläge, die ursprünglich zur Verwendung für zweifach quer gefaltete Briefbogen DIN A4 gedacht sind, sowie für weitere zu diesen Umschlägen passende Einlageformate. Die Bezeichnung lehnt sich an die Papierformate nach DIN an.",
+      "url": "https://de.wikipedia.org/wiki/DIN_lang"
+    },
     "formats": [
       {
         "name": "E",
