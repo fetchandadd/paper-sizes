@@ -17,17 +17,24 @@
 
 'use strict';
 
-angular.module('paper-sizes', []).controller('sizes', function ($scope, $http) {
+angular.module('paper-sizes', []).controller('sizes', function ($scope, $http, $sce) {
 
     $scope.databaseUrl = "paper-sizes.json";
 
     $scope.dina = true;
-    
+
     $http.get($scope.databaseUrl).then(function (response) {
-        console.log(response);
+
         $scope.paperSizes = response.data;
     }, function (response) {
 
     });
-    
+
+    $scope.highlight = function(text, search) {
+        if (!search) {
+            return $sce.trustAsHtml(text);
+        }
+        return $sce.trustAsHtml(text.replace(new RegExp(search, 'gi'), '<span class="blue-text text-darken-2">$&</span>'));
+    };
+
 });

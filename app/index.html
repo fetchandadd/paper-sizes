@@ -57,15 +57,15 @@
                         <div class="col s3" ng-repeat="format in filteredFormats=(paperSize.formats | filter:filter)">
                             <div class="card teal">
                                 <div class="card-content white-text">
-                                    <span class="card-title">{{format.name}}</span>
+                                    <span class="card-title" ng-bind-html="highlight(format.name, filter)"></span>
                                     <table>
                                         <tr>
                                             <th>Breite</th>
                                             <th>Höhe</th>
                                         </tr>
                                         <tr>
-                                            <td>{{format.cm.width}} cm</td>
-                                            <td>{{format.cm.height}} cm</td>
+                                            <td><span ng-bind-html="highlight(format.cm.width, filter)"></span> cm</td>
+                                            <td><span ng-bind-html="highlight(format.cm.height, filter)"></span> cm</td>
                                         </tr>
                                     </table>
                                 </div>
