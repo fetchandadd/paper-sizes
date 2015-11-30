@@ -1,0 +1,147 @@
+[
+  {
+    "name": "DIN/ISO A-Formate",
+    "show": true,
+    "formats": [
+      {
+        "name": "DIN A0",
+        "cm": {
+          "width": "84.090",
+          "height": "118.92"
+        }
+      },
+      {
+        "name": "DIN A1",
+        "cm": {
+          "width": "59.460",
+          "height": "84.090"
+        }
+      },
+      {
+        "name": "DIN A2",
+        "cm": {
+          "width": "42.045",
+          "height": "59.460"
+        }
+      },
+      {
+        "name": "DIN A3",
+        "cm": {
+          "width": "29.730",
+          "height": "42.045"
+        }
+      },
+      {
+        "name": "DIN A4",
+        "cm": {
+          "width": "21.022",
+          "height": "29.730"
+        }
+      },
+      {
+        "name": "DIN A5",
+        "cm": {
+          "width": "14.865",
+          "height": "21.022"
+        }
+      },
+      {
+        "name": "DIN A6",
+        "cm": {
+          "width": "10.511",
+          "height": "14.865"
+        }
+      },
+      {
+        "name": "DIN A7",
+        "cm": {
+          "width": "7.433",
+          "height": "10.511"
+        }
+      },
+      {
+        "name": "DIN A8",
+        "cm": {
+          "width": "5.256",
+          "height": "7.433"
+        }
+      },
+      {
+        "name": "DIN A9",
+        "cm": {
+          "width": "3.716",
+          "height": "5.256"
+        }
+      },
+      {
+        "name": "DIN A10",
+        "cm": {
+          "width": "2.628",
+          "height": "3.716"
+        }
+      }
+    ]
+  },
+  {
+    "name": "US ARCH-Formate",
+    "show": true,
+    "formats": [
+      {
+        "name": "E",
+        "cm": {
+          "width": "91.440",
+          "height": "121.92"
+        }
+      },
+      {
+        "name": "E1",
+        "cm": {
+          "width": "76.200",
+          "height": "106.68"
+        }
+      },
+      {
+        "name": "E2",
+        "cm": {
+          "width": "66.040",
+          "height": "96.520"
+        }
+      },
+      {
+        "name": "E3",
+        "cm": {
+          "width": "68.580",
+          "height": "99.060"
+        }
+      },
+      {
+        "name": "D",
+        "cm": {
+          "width": "60.960",
+          "height": "91.440"
+        }
+      },
+      {
+        "name": "C",
+        "cm": {
+          "width": "45.720",
+          "height": "60.960"
+        }
+      },
+      {
+        "name": "B",
+        "cm": {
+          "width": "30.480",
+          "height": "45.720"
+        }
+      },
+      {
+        "name": "A",
+        "cm": {
+          "width": "22.860",
+          "height": "30.480"
+        }
+      }
+    ]
+  }
+]

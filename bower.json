@@ -1,0 +1,25 @@
+{
+  "name": "paper-sizes",
+  "description": "A database for paper sizes",
+  "version": "0.0.1",
+  "homepage": "https://github.com/timtegeler/paper-sizes",
+  "license": "GPL-3.0",
+  "dependencies": {
+    "angular": "~1.4.0",
+    "Materialize": "materialize#~0.97.3"
+  },
+  "authors": [
+    "Tim Tegeler <tim@tegeler.me>"
+  ],
+  "moduleType": [],
+  "ignore": [
+    "**/.*",
+    "app/bower_components",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "main": "",
+  "private": true
+}
