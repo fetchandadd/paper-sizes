@@ -34,7 +34,7 @@ angular.module('paper-sizes', []).controller('sizes', function ($scope, $http, $
         if (!search) {
             return $sce.trustAsHtml(text);
         }
-        return $sce.trustAsHtml(text.replace(new RegExp(search, 'gi'), '<span class="blue-text text-darken-2">$&</span>'));
+        return $sce.trustAsHtml(text.replace(new RegExp(search, 'gi'), '<span class="grey-text">$&</span>'));
     };
 
 }).directive('focus',
