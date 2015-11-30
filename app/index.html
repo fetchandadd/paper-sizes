@@ -53,7 +53,7 @@
         <div class="row">
             <div ng-repeat="paperSize in paperSizes">
                 <div ng-hide="filteredFormats.length == 0 || !paperSize.show">
-                    <h3>{{paperSize.name}}</h3>
+                    <h4><a href="{{paperSize.url}}" >{{paperSize.name}}</a></h4>
 
                     <div class="row">
                         <div class="col s3" ng-repeat="format in filteredFormats=(paperSize.formats | filter:filter)">
@@ -78,7 +78,6 @@
             </div>
         </div>
     </div>
-
 </div>
 <script src="bower_components/jquery/dist/jquery.min.js"></script>
 <script src="bower_components/angular/angular.js"></script>

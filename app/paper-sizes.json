@@ -2,6 +2,7 @@
   {
     "name": "DIN/ISO A-Formate",
     "show": true,
+    "url": "https://de.wikipedia.org/wiki/Papierformat#Internationale_Papierformate_.28ISO.2FDIN.29",
     "formats": [
       {
         "name": "DIN A0",
@@ -85,6 +86,7 @@
   {
     "name": "DIN/ISO B-Formate",
     "show": true,
+    "url": "https://de.wikipedia.org/wiki/Papierformat#Internationale_Papierformate_.28ISO.2FDIN.29",
     "formats": [
       {
         "name": "DIN B0",
@@ -168,6 +170,7 @@
   {
     "name": "DIN/ISO C-Formate",
     "show": true,
+    "url": "https://de.wikipedia.org/wiki/Papierformat#Internationale_Papierformate_.28ISO.2FDIN.29",
     "formats": [
       {
         "name": "DIN C0",
@@ -251,6 +254,7 @@
   {
     "name": "DIN/ISO D-Formate",
     "show": true,
+    "url": "https://de.wikipedia.org/wiki/Papierformat#Internationale_Papierformate_.28ISO.2FDIN.29",
     "formats": [
       {
         "name": "DIN D0",
@@ -334,6 +338,7 @@
   {
     "name": "US ARCH-Formate",
     "show": true,
+    "url": "https://de.wikipedia.org/wiki/Papierformat#Internationale_Papierformate_.28ISO.2FDIN.29",
     "formats": [
       {
         "name": "E",
