@@ -37,7 +37,7 @@
 
     <div class="container">
         <div class="row">
-            <div class="col s3" ng-repeat="size in paperSizes">
+            <div class="col s4 m4 l3" ng-repeat="size in paperSizes">
                 <br>
 
                 <div class="switch">
@@ -58,7 +58,7 @@
                         {{paperSize.description.text}} <small> - <a href="{{paperSize.description.url}}">{{paperSize.description.url}}</a></small>
                     </blockquote>
                     <div class="row">
-                        <div class="col s3" ng-repeat="format in filteredFormats=(paperSize.formats | filter:filter)">
+                        <div class="col s12 m6 l3" ng-repeat="format in filteredFormats=(paperSize.formats | filter:filter)">
                             <div class="card teal">
                                 <div class="card-content white-text">
                                     <span class="card-title activator"><span ng-bind-html="highlight(format.name, filter)"></span><i class="material-icons right">more_vert</i></span>
