@@ -30,11 +30,28 @@ angular.module('paper-sizes', []).controller('sizes', function ($scope, $http, $
 
     });
 
-    $scope.highlight = function(text, search) {
+    $scope.highlight = function (text, search) {
         if (!search) {
             return $sce.trustAsHtml(text);
         }
         return $sce.trustAsHtml(text.replace(new RegExp(search, 'gi'), '<span class="blue-text text-darken-2">$&</span>'));
     };
 
-});
+}).directive('focus',
+    function ($timeout) {
+        return {
+            scope: {
+                trigger: '@focus'
+            },
+            link: function (scope, element) {
+                scope.$watch('trigger', function (value) {
+                    if (value === "true") {
+                        $timeout(function () {
+                            element[0].focus();
+                        });
+                    }
+                });
+            }
+        };
+    }
+);
