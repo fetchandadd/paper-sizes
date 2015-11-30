@@ -83,6 +83,255 @@
     ]
   },
   {
+    "name": "DIN/ISO B-Formate",
+    "show": true,
+    "formats": [
+      {
+        "name": "DIN B0",
+        "cm": {
+          "width": "100.0",
+          "height": "141.4"
+        }
+      },
+      {
+        "name": "DIN B1",
+        "cm": {
+          "width": "70.7",
+          "height": "100.0"
+        }
+      },
+      {
+        "name": "DIN B2",
+        "cm": {
+          "width": "50.0",
+          "height": "70.7"
+        }
+      },
+      {
+        "name": "DIN B3",
+        "cm": {
+          "width": "35.3",
+          "height": "50.0"
+        }
+      },
+      {
+        "name": "DIN B4",
+        "cm": {
+          "width": "25.0",
+          "height": "35.3"
+        }
+      },
+      {
+        "name": "DIN B5",
+        "cm": {
+          "width": "17.6",
+          "height": "25.0"
+        }
+      },
+      {
+        "name": "DIN B6",
+        "cm": {
+          "width": "12.5",
+          "height": "17.6"
+        }
+      },
+      {
+        "name": "DIN B7",
+        "cm": {
+          "width": "8.8",
+          "height": "12.5"
+        }
+      },
+      {
+        "name": "DIN B8",
+        "cm": {
+          "width": "6.2",
+          "height": "8.8"
+        }
+      },
+      {
+        "name": "DIN B9",
+        "cm": {
+          "width": "4.4",
+          "height": "6.2"
+        }
+      },
+      {
+        "name": "DIN B10",
+        "cm": {
+          "width": "3.1",
+          "height": "4.4"
+        }
+      }
+    ]
+  },
+  {
+    "name": "DIN/ISO C-Formate",
+    "show": true,
+    "formats": [
+      {
+        "name": "DIN C0",
+        "cm": {
+          "width": "91.7",
+          "height": "129.7"
+        }
+      },
+      {
+        "name": "DIN C1",
+        "cm": {
+          "width": "64.8",
+          "height": "91.7"
+        }
+      },
+      {
+        "name": "DIN C2",
+        "cm": {
+          "width": "45.8",
+          "height": "64.8"
+        }
+      },
+      {
+        "name": "DIN C3",
+        "cm": {
+          "width": "32.4",
+          "height": "45.8"
+        }
+      },
+      {
+        "name": "DIN C4",
+        "cm": {
+          "width": "22.9",
+          "height": "32.4"
+        }
+      },
+      {
+        "name": "DIN C5",
+        "cm": {
+          "width": "16.2",
+          "height": "22.9"
+        }
+      },
+      {
+        "name": "DIN C6",
+        "cm": {
+          "width": "11.4",
+          "height": "16.2"
+        }
+      },
+      {
+        "name": "DIN C7",
+        "cm": {
+          "width": "8.1",
+          "height": "11.4"
+        }
+      },
+      {
+        "name": "DIN C8",
+        "cm": {
+          "width": "5.7",
+          "height": "8.1"
+        }
+      },
+      {
+        "name": "DIN C9",
+        "cm": {
+          "width": "4.0",
+          "height": "5.7"
+        }
+      },
+      {
+        "name": "DIN C10",
+        "cm": {
+          "width": "2.8",
+          "height": "4.0"
+        }
+      }
+    ]
+  },
+  {
+    "name": "DIN/ISO D-Formate",
+    "show": true,
+    "formats": [
+      {
+        "name": "DIN D0",
+        "cm": {
+          "width": "77.1",
+          "height": "109.0"
+        }
+      },
+      {
+        "name": "DIN D1",
+        "cm": {
+          "width": "54.5",
+          "height": "77.1"
+        }
+      },
+      {
+        "name": "DIN D2",
+        "cm": {
+          "width": "38.5",
+          "height": "54.5"
+        }
+      },
+      {
+        "name": "DIN D3",
+        "cm": {
+          "width": "27.2",
+          "height": "38.5"
+        }
+      },
+      {
+        "name": "DIN D4",
+        "cm": {
+          "width": "19.2",
+          "height": "27.2"
+        }
+      },
+      {
+        "name": "DIN D5",
+        "cm": {
+          "width": "13.6",
+          "height": "19.2"
+        }
+      },
+      {
+        "name": "DIN D6",
+        "cm": {
+          "width": "9.6",
+          "height": "13.6"
+        }
+      },
+      {
+        "name": "DIN D7",
+        "cm": {
+          "width": "6.8",
+          "height": "9.6"
+        }
+      },
+      {
+        "name": "DIN D8",
+        "cm": {
+          "width": "4.8",
+          "height": "6.8"
+        }
+      },
+      {
+        "name": "DIN D9",
+        "cm": {
+          "width": "3.4",
+          "height": "4.8"
+        }
+      },
+      {
+        "name": "DIN D10",
+        "cm": {
+          "width": "2.4",
+          "height": "3.4"
+        }
+      }
+    ]
+  },
+  {
     "name": "US ARCH-Formate",
     "show": true,
     "formats": [
