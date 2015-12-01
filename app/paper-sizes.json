@@ -408,128 +408,128 @@
       {
         "name": "00",
         "cm": {
-          "width": "350",
-          "height": "500"
+          "width": "35.0",
+          "height": "50.0"
         },
         "keywords": ["Kleinformat"]
       },
       {
         "name": "01",
         "cm": {
-          "width": "460",
-          "height": "640"
+          "width": "46.0",
+          "height": "64.0"
         },
         "keywords": []
       },
       {
         "name": "0b",
         "cm": {
-          "width": "520",
-          "height": "720"
+          "width": "52.0",
+          "height": "72.0"
         },
         "keywords": ["Halbformat"]
       },
       {
         "name": "1",
         "cm": {
-          "width": "560",
-          "height": "830"
+          "width": "56.0",
+          "height": "83.0"
         },
         "keywords": []
       },
       {
         "name": "2c",
         "cm": {
-          "width": "640",
-          "height": "910"
+          "width": "64.0",
+          "height": "91.0"
         },
         "keywords": []
       },
       {
         "name": "2",
         "cm": {
-          "width": "610",
-          "height": "860"
+          "width": "61.0",
+          "height": "86.0"
         },
         "keywords": []
       },
       {
         "name": "3",
         "cm": {
-          "width": "650",
-          "height": "960"
+          "width": "65.0",
+          "height": "96.0"
         },
         "keywords": []
       },
       {
         "name": "3b",
         "cm": {
-          "width": "720",
-          "height": "1020"
+          "width": "72.0",
+          "height": "102.0"
         },
         "keywords": ["Mittelformat"]
       },
       {
         "name": "4",
         "cm": {
-          "width": "780",
-          "height": "1120"
+          "width": "78.0",
+          "height": "112.0"
         },
         "keywords": []
       },
       {
         "name": "5",
         "cm": {
-          "width": "890",
-          "height": "1260"
+          "width": "89.0",
+          "height": "126.0"
         },
         "keywords": []
       },
       {
         "name": "6",
         "cm": {
-          "width": "1020",
-          "height": "1420"
+          "width": "102.0",
+          "height": "142.0"
         },
         "keywords": []
       },
       {
         "name": "7",
         "cm": {
-          "width": "1120",
-          "height": "1620"
+          "width": "112.0",
+          "height": "162.0"
         },
         "keywords": []
       },
       {
         "name": "7b",
         "cm": {
-          "width": "1200",
-          "height": "1620"
+          "width": "120.0",
+          "height": "162.0"
         },
         "keywords": ["Großformat"]
       },
       {
         "name": "8",
         "cm": {
-          "width": "1300",
-          "height": "1850"
+          "width": "130.0",
+          "height": "185.0"
         },
         "keywords": []
       },
       {
         "name": "9",
         "cm": {
-          "width": "1500",
-          "height": "2050"
+          "width": "150.0",
+          "height": "205.0"
         },
         "keywords": ["Supergroßformat"]
       },
       {
         "name": "10",
         "cm": {
-          "width": "1620",
-          "height": "2240"
+          "width": "162.0",
+          "height": "224.0"
         },
         "keywords": []
       }
