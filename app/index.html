@@ -20,7 +20,26 @@
           media="screen,projection"/>
 </head>
 <body>
-<div ng-controller="sizes">
+<div id="preloader">
+    <br>
+
+    <div class="center-align">
+        <div class="preloader-wrapper small active">
+            <div class="spinner-layer spinner-green-only">
+                <div class="circle-clipper left">
+                    <div class="circle"></div>
+                </div>
+                <div class="gap-patch">
+                    <div class="circle"></div>
+                </div>
+                <div class="circle-clipper right">
+                    <div class="circle"></div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<div id="container" ng-controller="sizes" class="hide">
     <nav class="teal">
         <div class="nav-wrapper">
             <form>
@@ -53,15 +72,19 @@
         <div class="row">
             <div ng-repeat="paperSize in paperSizes">
                 <div ng-hide="filteredFormats.length == 0 || !paperSize.show">
-                    <h4><a href="{{paperSize.url}}" >{{paperSize.name}}</a></h4>
+                    <h4><a href="{{paperSize.url}}">{{paperSize.name}}</a></h4>
                     <blockquote>
-                        {{paperSize.description.text}} <small> - <a href="{{paperSize.description.url}}">{{paperSize.description.url}}</a></small>
+                        {{paperSize.description.text}}
+                        <small> - <a href="{{paperSize.description.url}}">{{paperSize.description.url}}</a></small>
                     </blockquote>
                     <div class="row">
-                        <div class="col s12 m6 l3" ng-repeat="format in filteredFormats=(paperSize.formats | filter:filter)">
+                        <div class="col s12 m6 l3"
+                             ng-repeat="format in filteredFormats=(paperSize.formats | filter:filter)">
                             <div class="card teal">
                                 <div class="card-content white-text">
-                                    <span class="card-title activator"><span ng-bind-html="highlight(format.name, filter)"></span><i class="material-icons right">more_vert</i></span>
+                                    <span class="card-title activator"><span
+                                            ng-bind-html="highlight(format.name, filter)"></span><i
+                                            class="material-icons right">more_vert</i></span>
                                     <table>
                                         <tr>
                                             <th>Breite</th>
@@ -75,8 +98,11 @@
                                 </div>
                                 {{paperSize.keywords}}
                                 <div class="card-reveal">
-                                    <span class="card-title grey-text text-darken-4">Stichwörter<i class="material-icons right">close</i></span>
-                                    <div class="chip" style="margin: 5px 5px 0px 0px;" ng-repeat="keyword in format.keywords">
+                                    <span class="card-title grey-text text-darken-4">Stichwörter<i
+                                            class="material-icons right">close</i></span>
+
+                                    <div class="chip" style="margin: 5px 5px 0px 0px;"
+                                         ng-repeat="keyword in format.keywords">
                                         {{keyword}}
                                     </div>
                                 </div>
@@ -92,5 +118,13 @@
 <script src="bower_components/Materialize/dist/js/materialize.min.js"></script>
 <script src="bower_components/angular/angular.js"></script>
 <script src="app.js"></script>
+<script>
+
+    window.onload = function () {
+        document.getElementById("preloader").setAttribute("class", "hide");
+        document.getElementById("container").removeAttribute("class");
+    };
+
+</script>
 </body>
 </html>
