@@ -1,4 +1,4 @@
-# paper-sizes — a converter for typographical lengths
+# paper-sizes — a database for paper sizes
 
 ## Install
 
