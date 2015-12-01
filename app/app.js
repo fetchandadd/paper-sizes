@@ -21,12 +21,10 @@ angular.module('paper-sizes', []).controller('sizes', function ($scope, $http, $
 
     $scope.databaseUrl = "paper-sizes.json";
 
-    $scope.dina = true;
-
     $http.get($scope.databaseUrl).then(function (response) {
         $scope.paperSizes = response.data;
     }, function (response) {
-        //TODO
+        $scope.httpError = true;
     });
 
     $scope.highlight = function (text, search) {
