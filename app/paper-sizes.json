@@ -10,9 +10,9 @@
     "formats": [
       {
         "name": "DIN A0",
-        "cm": {
-          "width": "84.090",
-          "height": "118.92"
+        "mm": {
+          "width": "841",
+          "height": "1189"
         },
         "keywords": [
           "Technische Zeichnungen",
@@ -27,9 +27,9 @@
       },
       {
         "name": "DIN A1",
-        "cm": {
-          "width": "59.460",
-          "height": "84.090"
+        "mm": {
+          "width": "594",
+          "height": "841"
         },
         "keywords": [
           "Technische Zeichnungen",
@@ -50,9 +50,9 @@
       },
       {
         "name": "DIN A2",
-        "cm": {
-          "width": "42.045",
-          "height": "59.460"
+        "mm": {
+          "width": "420",
+          "height": "594"
         },
         "keywords": [
           "Zeichnungen",
@@ -71,9 +71,9 @@
       },
       {
         "name": "DIN A3",
-        "cm": {
-          "width": "29.730",
-          "height": "42.045"
+        "mm": {
+          "width": "297",
+          "height": "420"
         },
         "keywords": [
           "Zeitungen",
@@ -88,9 +88,9 @@
       },
       {
         "name": "DIN A4",
-        "cm": {
-          "width": "21.022",
-          "height": "29.730"
+        "mm": {
+          "width": "210",
+          "height": "297"
         },
         "keywords": [
           "Briefpapier",
@@ -103,9 +103,9 @@
       },
       {
         "name": "DIN A5",
-        "cm": {
-          "width": "14.865",
-          "height": "21.022"
+        "mm": {
+          "width": "148",
+          "height": "210"
         },
         "keywords": [
           "Notizblöcke",
@@ -117,9 +117,9 @@
       },
       {
         "name": "DIN A6",
-        "cm": {
-          "width": "10.511",
-          "height": "14.865"
+        "mm": {
+          "width": "105",
+          "height": " 148"
         },
         "keywords": [
           "Karteikarten",
@@ -133,9 +133,9 @@
       },
       {
         "name": "DIN A7",
-        "cm": {
-          "width": "7.433",
-          "height": "10.511"
+        "mm": {
+          "width": "74",
+          "height": "105"
         },
         "keywords": [
           "Karteikarten",
@@ -146,9 +146,9 @@
       },
       {
         "name": "DIN A8",
-        "cm": {
-          "width": "5.256",
-          "height": "7.433"
+        "mm": {
+          "width": "52",
+          "height": "74"
         },
         "keywords": [
           "Karteikarten",
@@ -159,51 +159,51 @@
       },
       {
         "name": "DIN A9",
-        "cm": {
-          "width": "3.716",
-          "height": "5.256"
+        "mm": {
+          "width": "37",
+          "height": "52"
         }
       },
       {
         "name": "DIN A10",
-        "cm": {
-          "width": "2.628",
-          "height": "3.716"
+        "mm": {
+          "width": "26",
+          "height": "37"
         }
       },
       {
         "name": "DIN B0",
-        "cm": {
-          "width": "100.0",
-          "height": "141.4"
+        "mm": {
+          "width": "1000",
+          "height": "1414"
         }
       },
       {
         "name": "DIN B1",
-        "cm": {
-          "width": "70.7",
-          "height": "100.0"
+        "mm": {
+          "width": "707",
+          "height": "1000"
         }
       },
       {
         "name": "DIN B2",
-        "cm": {
-          "width": "50.0",
-          "height": "70.7"
+        "mm": {
+          "width": "500",
+          "height": "707"
         }
       },
       {
         "name": "DIN B3",
-        "cm": {
-          "width": "35.3",
-          "height": "50.0"
+        "mm": {
+          "width": "353",
+          "height": "500"
         }
       },
       {
         "name": "DIN B4",
-        "cm": {
-          "width": "25.0",
-          "height": "35.3"
+        "mm": {
+          "width": "250",
+          "height": "353"
         },
         "keywords": [
           "Zeitungen",
@@ -214,9 +214,9 @@
       },
       {
         "name": "DIN B5",
-        "cm": {
-          "width": "17.6",
-          "height": "25.0"
+        "mm": {
+          "width": "176",
+          "height": "250"
         },
         "keywords": [
           "Bücher"
@@ -224,9 +224,9 @@
       },
       {
         "name": "DIN B6",
-        "cm": {
-          "width": "12.5",
-          "height": "17.6"
+        "mm": {
+          "width": "125",
+          "height": "176"
         },
         "keywords": [
           "Bücher"
@@ -234,9 +234,9 @@
       },
       {
         "name": "DIN B7",
-        "cm": {
-          "width": "8.8",
-          "height": "12.5"
+        "mm": {
+          "width": "88",
+          "height": "125"
         },
         "keywords": [
           "Reisepass"
@@ -244,9 +244,9 @@
       },
       {
         "name": "DIN B8",
-        "cm": {
-          "width": "6.2",
-          "height": "8.8"
+        "mm": {
+          "width": "62",
+          "height": "88"
         },
         "keywords": [
           "Spielkarten",
@@ -256,51 +256,51 @@
       },
       {
         "name": "DIN B9",
-        "cm": {
-          "width": "4.4",
-          "height": "6.2"
+        "mm": {
+          "width": "44",
+          "height": "62"
         }
       },
       {
         "name": "DIN B10",
-        "cm": {
-          "width": "3.1",
-          "height": "4.4"
+        "mm": {
+          "width": "31",
+          "height": "44"
         }
       },
       {
         "name": "DIN C0",
-        "cm": {
-          "width": "91.7",
-          "height": "129.7"
+        "mm": {
+          "width": "917",
+          "height": "1297"
         }
       },
       {
         "name": "DIN C1",
-        "cm": {
-          "width": "64.8",
-          "height": "91.7"
+        "mm": {
+          "width": "648",
+          "height": "917"
         }
       },
       {
         "name": "DIN C2",
-        "cm": {
-          "width": "45.8",
-          "height": "64.8"
+        "mm": {
+          "width": "458",
+          "height": "648"
         }
       },
       {
         "name": "DIN C3",
-        "cm": {
-          "width": "32.4",
-          "height": "45.8"
+        "mm": {
+          "width": "324",
+          "height": "458"
         }
       },
       {
         "name": "DIN C4",
-        "cm": {
-          "width": "22.9",
-          "height": "32.4"
+        "mm": {
+          "width": "229",
+          "height": "324"
         },
         "keywords": [
           "Umschläge"
@@ -308,9 +308,9 @@
       },
       {
         "name": "DIN C5",
-        "cm": {
-          "width": "16.2",
-          "height": "22.9"
+        "mm": {
+          "width": "162",
+          "height": "229"
         },
         "keywords": [
           "Umschläge"
@@ -318,9 +318,9 @@
       },
       {
         "name": "DIN C6",
-        "cm": {
-          "width": "11.4",
-          "height": "16.2"
+        "mm": {
+          "width": "114",
+          "height": "162"
         },
         "keywords": [
           "Umschläge"
@@ -328,72 +328,72 @@
       },
       {
         "name": "DIN C7",
-        "cm": {
-          "width": "8.1",
-          "height": "11.4"
+        "mm": {
+          "width": "81",
+          "height": "114"
         }
       },
       {
         "name": "DIN C8",
-        "cm": {
-          "width": "5.7",
-          "height": "8.1"
+        "mm": {
+          "width": "57",
+          "height": "81"
         }
       },
       {
         "name": "DIN C9",
-        "cm": {
-          "width": "4.0",
-          "height": "5.7"
+        "mm": {
+          "width": "40",
+          "height": "57"
         }
       },
       {
         "name": "DIN C10",
-        "cm": {
-          "width": "2.8",
-          "height": "4.0"
+        "mm": {
+          "width": "28",
+          "height": "40"
         }
       },
       {
         "name": "DIN D0",
-        "cm": {
-          "width": "77.1",
-          "height": "109.0"
+        "mm": {
+          "width": "771",
+          "height": "1090"
         }
       },
       {
         "name": "DIN D1",
-        "cm": {
-          "width": "54.5",
-          "height": "77.1"
+        "mm": {
+          "width": "545",
+          "height": "771"
         }
       },
       {
         "name": "DIN D2",
-        "cm": {
-          "width": "38.5",
-          "height": "54.5"
+        "mm": {
+          "width": "385",
+          "height": "545"
         }
       },
       {
         "name": "DIN D3",
-        "cm": {
-          "width": "27.2",
-          "height": "38.5"
+        "mm": {
+          "width": "272",
+          "height": "385"
         }
       },
       {
         "name": "DIN D4",
-        "cm": {
-          "width": "19.2",
-          "height": "27.2"
+        "mm": {
+          "width": "192",
+          "height": "272"
         }
       },
       {
         "name": "DIN D5",
-        "cm": {
-          "width": "13.6",
-          "height": "19.2"
+        "mm": {
+          "width": "136",
+          "height": "192"
         },
         "keywords": [
           "DVD-Hüllen"
@@ -401,37 +401,37 @@
       },
       {
         "name": "DIN D6",
-        "cm": {
-          "width": "9.6",
-          "height": "13.6"
+        "mm": {
+          "width": "96",
+          "height": "136"
         }
       },
       {
         "name": "DIN D7",
-        "cm": {
-          "width": "6.8",
-          "height": "9.6"
+        "mm": {
+          "width": "68",
+          "height": "96"
         }
       },
       {
         "name": "DIN D8",
-        "cm": {
-          "width": "4.8",
-          "height": "6.8"
+        "mm": {
+          "width": "48",
+          "height": "68"
         }
       },
       {
         "name": "DIN D9",
-        "cm": {
-          "width": "3.4",
-          "height": "4.8"
+        "mm": {
+          "width": "34",
+          "height": "48"
         }
       },
       {
         "name": "DIN D10",
-        "cm": {
-          "width": "2.4",
-          "height": "3.4"
+        "mm": {
+          "width": "24",
+          "height": "34"
         }
       }
     ]
@@ -447,9 +447,9 @@
     "formats": [
       {
         "name": "DL",
-        "cm": {
-          "width": "22.0",
-          "height": "11.0"
+        "mm": {
+          "width": "220",
+          "height": "110"
         },
         "keywords": [
           "DIN lang",
@@ -458,9 +458,9 @@
       },
       {
         "name": "C6/C5",
-        "cm": {
-          "width": "22.9",
-          "height": "11.4"
+        "mm": {
+          "width": "229",
+          "height": "114"
         },
         "keywords": [
           "DIN lang",
@@ -480,9 +480,9 @@
     "formats": [
       {
         "name": "00",
-        "cm": {
-          "width": "35.0",
-          "height": "50.0"
+        "mm": {
+          "width": "350",
+          "height": "500"
         },
         "keywords": [
           "Kleinformat"
@@ -490,17 +490,17 @@
       },
       {
         "name": "01",
-        "cm": {
-          "width": "46.0",
-          "height": "64.0"
+        "mm": {
+          "width": "460",
+          "height": "640"
         },
         "keywords": []
       },
       {
         "name": "0b",
-        "cm": {
-          "width": "52.0",
-          "height": "72.0"
+        "mm": {
+          "width": "520",
+          "height": "720"
         },
         "keywords": [
           "Halbformat"
@@ -508,41 +508,41 @@
       },
       {
         "name": "1",
-        "cm": {
-          "width": "56.0",
-          "height": "83.0"
+        "mm": {
+          "width": "560",
+          "height": "830"
         },
         "keywords": []
       },
       {
         "name": "2c",
-        "cm": {
-          "width": "64.0",
-          "height": "91.0"
+        "mm": {
+          "width": "640",
+          "height": "910"
         },
         "keywords": []
       },
       {
         "name": "2",
-        "cm": {
-          "width": "61.0",
-          "height": "86.0"
+        "mm": {
+          "width": "610",
+          "height": "860"
         },
         "keywords": []
       },
       {
         "name": "3",
-        "cm": {
-          "width": "65.0",
-          "height": "96.0"
+        "mm": {
+          "width": "650",
+          "height": "960"
         },
         "keywords": []
       },
       {
         "name": "3b",
-        "cm": {
-          "width": "72.0",
-          "height": "102.0"
+        "mm": {
+          "width": "720",
+          "height": "1020"
         },
         "keywords": [
           "Mittelformat"
@@ -550,41 +550,41 @@
       },
       {
         "name": "4",
-        "cm": {
-          "width": "78.0",
-          "height": "112.0"
+        "mm": {
+          "width": "780",
+          "height": "1120"
         },
         "keywords": []
       },
       {
         "name": "5",
-        "cm": {
-          "width": "89.0",
-          "height": "126.0"
+        "mm": {
+          "width": "890",
+          "height": "1260"
         },
         "keywords": []
       },
       {
         "name": "6",
-        "cm": {
-          "width": "102.0",
-          "height": "142.0"
+        "mm": {
+          "width": "1020",
+          "height": "1420"
         },
         "keywords": []
       },
       {
         "name": "7",
-        "cm": {
-          "width": "112.0",
-          "height": "162.0"
+        "mm": {
+          "width": "1120",
+          "height": "1620"
         },
         "keywords": []
       },
       {
         "name": "7b",
-        "cm": {
-          "width": "120.0",
-          "height": "162.0"
+        "mm": {
+          "width": "1200",
+          "height": "1620"
         },
         "keywords": [
           "Großformat"
@@ -592,17 +592,17 @@
       },
       {
         "name": "8",
-        "cm": {
-          "width": "130.0",
-          "height": "185.0"
+        "mm": {
+          "width": "1300",
+          "height": "1850"
         },
         "keywords": []
       },
       {
         "name": "9",
-        "cm": {
-          "width": "150.0",
-          "height": "205.0"
+        "mm": {
+          "width": "1500",
+          "height": "2050"
         },
         "keywords": [
           "Supergroßformat"
@@ -610,9 +610,9 @@
       },
       {
         "name": "10",
-        "cm": {
-          "width": "162.0",
-          "height": "224.0"
+        "mm": {
+          "width": "1620",
+          "height": "2240"
         },
         "keywords": []
       }
@@ -629,58 +629,58 @@
     "formats": [
       {
         "name": "E",
-        "cm": {
-          "width": "91.440",
-          "height": "121.92"
+        "mm": {
+          "width": "91440",
+          "height": "12192"
         }
       },
       {
         "name": "E1",
-        "cm": {
-          "width": "76.200",
-          "height": "106.68"
+        "mm": {
+          "width": "76200",
+          "height": "10668"
         }
       },
       {
         "name": "E2",
-        "cm": {
-          "width": "66.040",
-          "height": "96.520"
+        "mm": {
+          "width": "66040",
+          "height": "96520"
         }
       },
       {
         "name": "E3",
-        "cm": {
-          "width": "68.580",
-          "height": "99.060"
+        "mm": {
+          "width": "68580",
+          "height": "99060"
         }
       },
       {
         "name": "D",
-        "cm": {
-          "width": "60.960",
-          "height": "91.440"
+        "mm": {
+          "width": "60960",
+          "height": "91440"
         }
       },
       {
         "name": "C",
-        "cm": {
-          "width": "45.720",
-          "height": "60.960"
+        "mm": {
+          "width": "45720",
+          "height": "60960"
         }
       },
       {
         "name": "B",
-        "cm": {
-          "width": "30.480",
-          "height": "45.720"
+        "mm": {
+          "width": "30480",
+          "height": "45720"
         }
       },
       {
         "name": "A",
-        "cm": {
-          "width": "22.860",
-          "height": "30.480"
+        "mm": {
+          "width": "22860",
+          "height": "30480"
         }
       }
     ]
