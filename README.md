@@ -1,4 +1,10 @@
-# paper-sizes — a database for paper sizes
+# paper-sizes
+
+A database for paper sizes
+
+## Hosted
+
+[http://paper-sizes.apps.creios.net](http://paper-sizes.apps.creios.net)
 
 ## Install
 
